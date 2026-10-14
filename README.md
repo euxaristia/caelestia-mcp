@@ -35,3 +35,10 @@ Add the following to `~/.config/Claude/claude_desktop_config.json`:
   }
 }
 ```
+
+## License
+
+Licensed under the Apache License, Version 2.0 (the "License"). See the [LICENSE](LICENSE) file for details.
+
+Copyright © 2026 euxaristia
+
