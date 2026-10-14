@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "caelestia-mcp"
+version = "1.0.0"
+description = "Model Context Protocol (MCP) server for Caelestia shell and Hyprland"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.0.0",
+]
+
+[project.scripts]
+caelestia-mcp = "caelestia_mcp.server:main"
